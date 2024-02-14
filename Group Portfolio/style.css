@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 1000px;
+  background-image: url("images/Group.jpg");
+  backdrop-filter: blur(3px);
+  background-position: center;
+}
+.paper {
+  background-image: url("https://th.bing.com/th/id/OIP.ThNCR4uTV1gEyEFtEidZxAHaE8?rs=1&pid=ImgDetMain");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  position: absolute;
+}
+.paper.image {
+  padding: 10px;
+  border-radius: 40px;
+}
+.paper.image p {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+img {
+border-radius: 100px;
+  padding: 50px;
+  transition: transform .2s;
+  width: 100%;
+  max-height: 400px;
+  user-select: none;
+  margin: 0 auto;
+}
+img:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+p {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(5,0,100);
+  opacity: 1;
+  line-height: 30px;
+}
+.paper .p1{
+    line-height: 70px;
+}
